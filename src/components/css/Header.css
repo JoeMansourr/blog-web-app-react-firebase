@@ -1,0 +1,17 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 200px;
+}
+
+.header__title{
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+
+.header__userStatus{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
